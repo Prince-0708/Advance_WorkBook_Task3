@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header Styling */
+header {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Book Section */
+.book-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.book {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+}
+
+.book img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.book h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.buy-btn {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-btn:hover {
+    background-color: #357ABD;
+}
+
+/* Footer */
+footer {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+/* Contact Us Page Styling */
+.contact-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+/* Contact Form Container */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Contact Form Inputs */
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Textarea Styling */
+.contact-form textarea {
+    width: 300px;
+    height: 50px;
+    resize: none;
+}
+
+/* Send Message Button */
+.contact-form .send-btn {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form .send-btn:hover {
+    background-color: #357ABD;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4A90E2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
